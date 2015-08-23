@@ -1,1 +1,2 @@
 # Grocery-Store
+I made a simluated grocery store app for ordering fruit for my C++ assignment. This was my first introduction to pointers! The array of "fruit" to order from is sorted alphabetically, and the destructor includes a cout statement describing the fruit object that is being deallocated. Because of the temp variable in the sort, there is a destructor call at the start of the console output. Searching for "fruit" (or whatever you populate the grocery list with) is done with a binary search.
